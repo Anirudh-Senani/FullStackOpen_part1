@@ -24,6 +24,7 @@ const Statistics = ({good, bad,neutral}) => {
     <div>
     <h1>Statistics</h1>
     <table>
+    <tbody>
     <tr>
       <td> good </td>
       <td> {good} </td>
@@ -44,6 +45,7 @@ const Statistics = ({good, bad,neutral}) => {
       <td> positive </td>
       <td> {good*100/(good+bad+neutral)} % </td>
     </tr>
+    </tbody>
     </table>
     </div>
     )
